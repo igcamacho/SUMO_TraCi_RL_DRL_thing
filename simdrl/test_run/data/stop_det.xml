@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-05-03 01:31:46 by Eclipse SUMO netedit Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/igcamacho/Documents/simrl/data/cross.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/igcamacho/Documents/simrl/data/cross.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="-1"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/igcamacho/Documents/simrl/data/stop_det.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e2Detector id="e2_10" lane="1i_0" pos="394.12" length="100.00" freq="30.00" file="e2_10.xml" jamThreshold="1.39" friendlyPos="1"/>
+    <e2Detector id="e2_11" lane="2i_0" pos="394.74" length="100.00" freq="30.00" file="e2_11.xml" jamThreshold="1.39" friendlyPos="1"/>
+    <e2Detector id="e2_22" lane="4i_0" pos="395.60" length="100.00" freq="30.00" file="e2_22.xml" jamThreshold="1.39" friendlyPos="1"/>
+</additional>
